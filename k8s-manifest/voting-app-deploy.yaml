@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
         - name: voting-app 
-          image: us.gcr.io/feisty-gateway-452608-c9/result:latest
+          image: us.gcr.io/feisty-gateway-452608-c9/vote:latest
           ports:
             - containerPort: 80
