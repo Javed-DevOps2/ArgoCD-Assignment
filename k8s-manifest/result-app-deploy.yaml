@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
         - name: result-app-pod
-          image: malikyasin/result-image:latest
+          image: us.gcr.io/${{ vars.PROJECT_ID }}/result:latest
           ports:
             - containerPort: 80
