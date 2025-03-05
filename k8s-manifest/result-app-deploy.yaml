@@ -23,6 +23,6 @@ spec:
     spec:
       containers:
         - name: result-app-pod
-          image: us.gcr.io/feisty-gateway-452608-c9/result:latest2
+          image: us.gcr.io/feisty-gateway-452608-c9/result:latest3
           ports:
             - containerPort: 80
